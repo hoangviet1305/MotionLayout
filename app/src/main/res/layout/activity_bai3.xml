@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_bai3_scene"
+    tools:context=".bai3">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="375dp"
+        android:layout_height="671dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/nen"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/tylor"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/tron"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="349dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/chunen"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="605dp" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/nhac"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="406dp" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/nhactrang"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="408dp" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/headphone"
+        tools:layout_editor_absoluteX="339dp"
+        tools:layout_editor_absoluteY="48dp" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
