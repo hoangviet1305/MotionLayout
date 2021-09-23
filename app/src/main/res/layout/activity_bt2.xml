@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_bt2_scene"
+    tools:context=".bt2">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ADD"
+        tools:layout_editor_absoluteX="283dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cart"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <ImageView
+        android:id="@+id/game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/game"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="136dp" />
+
+    <ImageView
+        android:id="@+id/head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/headphone"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="275dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/shping"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="399dp" />
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/photo"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="277dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ADD"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ADD"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="175dp" />
+</androidx.constraintlayout.motion.widget.MotionLayout>
